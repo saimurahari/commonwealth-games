@@ -1,0 +1,130 @@
+body{
+	background: white;
+	font-family: arial;
+	margin: 0;
+	padding: 0;
+
+}
+.dropdown{
+	margin: 0 auto;
+
+}
+.dropdown h1{
+
+font-size: 40px;	
+}
+nav{
+	height: 60px;
+	background: #2c3e50;
+	box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+nav ul{
+	padding: 0;
+	margin:0;
+	float: right;
+	margin-right:  30px;
+	padding-right:  15px;
+
+}
+nav ul li{
+	background: #2c3e50;
+	position: relative;
+	list-style: none;
+	display: inline-block;
+
+}
+nav ul li a{
+	display: block;
+	padding: 0 15px;
+	color: white;
+	text-decoration: none;
+	line-height: 60px;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	background: #243342;
+
+}
+nav ul ul {
+	position: absolute;
+	top: 60px;
+	display: none;
+
+}
+nav ul li:hover > ul{
+	display: block;
+
+}
+nav ul ul li{
+	width: 150px;
+	float: none;
+	display: list-item;
+	position: relative;
+  
+}
+nav ul ul ul li{
+	position: relative;
+	top: -60px;
+	left:  150px;
+
+}
+#fornavbar{
+	width: 100%;
+	height: 500px;
+	background-image: url(ourgames.jpg);
+	background-repeat: repeat;
+ 		
+}
+nav ul li .head{
+	margin-top: 300px;
+}
+#gamesblock{
+	width: 100%;
+	height: 60px;
+	margin-top: 400px;
+	background: transparent;
+	background-color: #bbddd9; 
+}
+#games{
+display: inline-block;
+	width: 100%;
+	float: right;
+	text-align: center;
+	font-size: 25pt;
+	font-weight: bold;
+	padding-top: 15px;
+	padding-left: 2px;
+	padding-bottom:  20px;	
+}
+#games a{
+	display: inline-block;
+	color: black;
+	font-family: all;
+	text-decoration: none;
+	top: 20%;
+	transform: translateY(-20%);
+}
+img{
+	width: 100px;
+	height: 90px;
+}
+th{
+	font-size: 2em;
+	background-color: #f9ddff;
+	padding: 20px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 1em;
+	text-align: center;
+	background-color: white;
+}
+table{
+	background-color: white;
+	width: 60%;
+}
+td{
+	padding: 25px;
+
+}
